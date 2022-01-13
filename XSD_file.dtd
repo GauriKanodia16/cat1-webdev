@@ -1,0 +1,17 @@
+<!ELEMENT schema (element)>
+<!ELEMENT element (complexType?,simpleType?)>
+<!ATTLIST element name NMTOKEN #REQUIRED>
+<!ATTLIST element type NMTOKEN #IMPLIED>
+<!ELEMENT complexType (sequence)>
+<!ELEMENT sequence (element+,attribute,unique)>
+<!ELEMENT simpleType (restriction)>
+<!ELEMENT restriction (minInclusive,maxInclusive)>
+<!ATTLIST restriction base NMTOKEN #REQUIRED>
+<!ELEMENT minInclusive EMPTY>
+<!ATTLIST minInclusive value NMTOKEN #REQUIRED>
+<!ELEMENT maxInclusive EMPTY>
+<!ATTLIST maxInclusive value NMTOKEN #REQUIRED>
+<!ELEMENT attribute EMPTY>
+<!ATTLIST attribute name NMTOKEN #REQUIRED>
+<!ATTLIST attribute type NMTOKEN #REQUIRED>
+<!ELEMENT unique (#PCDATA)>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="xslt-file.xsl"?>
+<Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="XSD_file.xsd">
+
+    <employee>  
+    <name>Jaswinder Pal Singh</name> 
+    <age>59</age> 
+    <phone>9415046999</phone>
+    <salary>50000</salary>
+    <designation>manager</designation>
+    <email>pal.jassi@gmail.com</email> 
+    <Emp_id>1101</Emp_id> 
+    </employee> 
+    
+    
+    <employee>  
+    <name>Alok Nath</name> 
+    <age>35</age> 
+    <phone>9415046889</phone>
+    <salary>150000</salary>
+    <designation>Ass.manager</designation>
+    <email>alok.nath@gmail.com</email> 
+    <Emp_id>1102</Emp_id>  
+    </employee> 
+
+    
+    <employee>  
+    <name>Ishika Thapar</name> 
+    <age>27</age> 
+    <phone>9415046977</phone>
+    <salary>80000</salary>
+    <designation>HR</designation>
+    <email>ishika.99@gmail.com</email>  
+    <Emp_id>1103</Emp_id> 
+    </employee> 
+
+
+    <employee>  
+    <name>Parminder singh ahuja</name> 
+    <age>30</age> 
+    <phone>9429046999</phone>
+    <salary>65000</salary>
+    <designation>manager</designation>
+    <email>parminder.ahujai@gmail.com</email> 
+    <Emp_id>1104</Emp_id> 
+
+    </employee> 
+
+
+    <employee>  
+    <name>akansha rajput</name> 
+    <age>25</age> 
+    <phone>8319095499</phone>
+    <salary>95000</salary>
+    <designation>intern</designation>
+    <email>akansha.rajput@gmail.com</email>
+    <Emp_id>1105</Emp_id>   
+    </employee>
+
+
+</Company>    
